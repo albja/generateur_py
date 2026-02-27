@@ -1,6 +1,7 @@
 
 from password_generator import generer_mot_de_passe
 
+print("=== Générateur de mot de passe sécurisé ===")
 try:
     longueur = int(input("Longueur du mot de passe : "))
 
@@ -13,3 +14,5 @@ try:
 
 except ValueError:
     print("La longueur doit être un nombre entier")
+
+    
